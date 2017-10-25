@@ -6,9 +6,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
 @EnableJpaAuditing
-public class EasyNotesApplication {
+public class WelcomeNotesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EasyNotesApplication.class, args);
+		SpringApplication.run(WelcomeNotesApplication.class, args);
 	}
 }
